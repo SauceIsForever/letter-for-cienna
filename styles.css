@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Bonny';
+    src: url('fonts/Bonny_Complete/Fonts/WEB/fonts/Bonny-Regular.woff2') format('woff2'),
+         url('fonts/Bonny_Complete/Fonts/WEB/fonts/Bonny-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     font-family: 'Georgia', serif;
     background: linear-gradient(135deg, #E8D5D5 0%, #D4B5B5 100%);
@@ -234,8 +243,8 @@ body {
     color: #4A4A4A;
     line-height: 1.9;
     margin-bottom: 18px;
-    font-size: 15px;
-    font-family: 'Cookie', 'Brush Script MT', cursive;
+    font-size: 17px;
+    font-family: 'Bonny', 'Times New Roman', serif;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -322,12 +331,12 @@ body {
 
     .greeting-title {
         font-size: 28px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .letter-text {
-        font-size: 14px;
-        line-height: 1.8;
+        font-size: 20px;
+        line-height: 1.85;
     }
 
     .date-stamp {
